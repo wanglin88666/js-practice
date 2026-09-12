@@ -191,3 +191,34 @@ CSS------
         width
         height
         background-color背景色
+
+    字体：
+        大小font-size
+        粗细font-weight
+            数字（400/700）/关键字（normal/bold）
+        倾斜font-style
+            正常normal 倾斜italic
+        行高line-height
+            数字+px/数字（当前font-size的倍数）
+            垂直居中：行高等于盒子高度属性值（单行文字）
+        字体族font-family
+            例：font-family：楷体
+        复合属性font
+            一个属性对应多个值，之间用空格隔开就行（倾斜，加粗，字号/行高，字体，按顺序书写，字体和字号必须书写）
+        缩进text-indent
+            数字+px
+            数字+em（当前标签字号的大小）
+        对齐text-align（控制内容）
+            left左对（默认）
+            center居中
+            right右对
+        修饰线text-decoration
+            none无
+            underline下划线
+            line-through删除线
+            overline上划线
+        颜色color
+            rgba表示法：rgba（r，g，b，a）a表示透明度
+            十六进制表示法#RRGGBB  简写#RGB
+
+    
