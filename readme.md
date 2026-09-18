@@ -737,3 +737,26 @@ background: pink url(./bg.png) no-repeat center/cover;
 
 > 多个属性值用空格隔开，不区分顺序；`position/size` 之间用 `/` 分隔。
 
+2.9显示模式
+  块级元素：
+    div
+    独占一行
+    宽度默认是父级的100%
+    添加宽高属性生效
+  行内元素:
+    span
+    一行共存
+    尺寸由内容成撑开
+    添加宽高属性不生效
+  行内块元素：
+    img
+    一行共存
+    尺寸由内容撑开
+    添加宽高属性不生效
+  
+  转换显示模式：
+    display：
+    <!-- 前两个常用 -->
+      block 块级
+      inline-block 行内块
+      inline 行内
